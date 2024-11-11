@@ -19,7 +19,7 @@ export const useDemoData = ({
 }) => {
   // unique b64 key that updates each time we add / remove components
   const componentKey = Buffer.from(
-    `${Object.keys(config.components).join("-")}-${JSON.stringify(initialData)}`
+    `${Object.keys(config.components).join("-")}-${JSON.stringify(initialData)}`,
   ).toString("base64");
 
   const key = `puck-demo:${componentKey}:${path}`;
@@ -29,7 +29,7 @@ export const useDemoData = ({
       const dataStr = localStorage.getItem(key);
 
       if (dataStr) {
-        return JSON.parse(dataStr);
+        return JSON.parse(dataStr); // todo_cl: puck json data is here
       }
 
       return initialData[path] || {};

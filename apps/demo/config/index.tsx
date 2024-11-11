@@ -7,6 +7,7 @@ import { Heading, HeadingProps } from "./blocks/Heading";
 import { Flex, FlexProps } from "./blocks/Flex";
 import { Logos, LogosProps } from "./blocks/Logos";
 import { Stats, StatsProps } from "./blocks/Stats";
+import { Figure, FigureProps } from "./blocks/Figure";
 import { Text, TextProps } from "./blocks/Text";
 import { VerticalSpace, VerticalSpaceProps } from "./blocks/VerticalSpace";
 
@@ -24,6 +25,7 @@ export type Props = {
   Logos: LogosProps;
   Stats: StatsProps;
   Text: TextProps;
+  Figure: FigureProps;
   VerticalSpace: VerticalSpaceProps;
 };
 
@@ -62,6 +64,7 @@ export const conf: UserConfig = {
     Hero,
     Heading,
     Flex,
+    Figure,
     Logos,
     Stats,
     Text,
