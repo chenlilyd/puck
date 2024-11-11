@@ -1,0 +1,5 @@
+﻿,Initial knowledge  ,,Learning rate  
+Percentile  ,Initial % correct  ,Opp to reach 80% mastery  ,Improvement % correct*  ,Opp to reach 80% mastery  
+25  ,55.21 (15.84)  ,13.13 (19.52)  ,1.70 (3.80)  ,7.89 (22.41)  
+50  ,66.05 (12.91)  ,6.54 (14.10)  ,2.25 (4.02)  ,7.27 (14.18)  
+75  ,75.17 (10.45)  ,3.66 (8.22)  ,2.56 (4.12)  ,6.94 (10.91)  
